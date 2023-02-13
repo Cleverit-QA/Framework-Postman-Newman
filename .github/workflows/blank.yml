@@ -43,7 +43,7 @@ jobs:
           npm install -g newman-reporter-htmlextra
         # Run collection
       - name: Run Tests 
-        run: newman run ".github/workflows/PostmanPokemonConsulta.postman_collection.json" -d ".github/workflows/test_case_pokemon.json" -r cli,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html
+        run: newman run "PostmanPokemonConsulta.postman_collection.json" -d "test_case_pokemon.json" -r cli,htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html
        
        # Upload the report to TestArtifacts directory
       - name: OutPut the results
