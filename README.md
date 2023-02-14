@@ -14,7 +14,7 @@ Este proyecto esta hecho con postman+newman+gitAction, se crea una colletion de 
 3-GitActions
 4-nodejs
 
-## Installacions
+## Installacions(Comandos)
 1.Installar postman
 2.install nodejs
 3.Ejecutar los siguientes comando para instalar newman:
@@ -22,7 +22,7 @@ Este proyecto esta hecho con postman+newman+gitAction, se crea una colletion de 
   $npm install -g newman-reporter-slackreporter
   $npm install -g newman-reporter-htmlextra
 
-## Recomendacion
+## Recomendacion(Comandos)
 -En caso de que quiera correr newman de manera local para generar un reporte en su pc, ejecute el siguiente comando en cmd asegurandose que la colletion y el json esten en la misma carpeta: newman run Micollection.json -d Mitest_case.json -r htmlextra
 
 ## Anexos: 
